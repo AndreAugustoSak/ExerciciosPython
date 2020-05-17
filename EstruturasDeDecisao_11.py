@@ -9,7 +9,7 @@
 ## o valor do aumento;
 ## o novo salário, após o aumento.
 
-def reajustes ():
+def reajustes():
     salario = float(input('Qual o salário do colaborador? (R$) '))
     if salario <= 280:
         percentual = 20
