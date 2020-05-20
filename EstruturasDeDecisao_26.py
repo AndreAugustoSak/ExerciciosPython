@@ -13,7 +13,18 @@ A - para Álcool
 G - para Gasolina
 ''')).strip().upper()
     litros = float(input('Quantos litros você quer abastecer? '))
-    bruto_alcool = litros * 1.9
-    bruto_gasolina = litros * 2.5
-    if tipo == 'A':
-        bruto_alcool = litros * 1.9
+    valor = 0
+    if tipo == 'A' and litros <= 20:
+        valor = litros * 1.9 * 0.97
+        tipo = 'álcool'
+    elif tipo == 'A' and litros > 20:
+        valor = litros * 1.9 * 0.95
+        tipo = 'álcool'
+    elif tipo == 'G' and litros <= 20:
+        valor = litros * 2.5 * 0.96
+        tipo = 'gasolina'
+    elif tipo == 'G' and litros > 20:
+        valor = litros * 2.5 * 0.94
+        tipo = 'gasolina'
+    print('Para abastecer {} litros de {}, você deverá pagar R$ {:.2f}.'.format(litros, tipo, valor))
+combustivel()
