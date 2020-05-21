@@ -4,7 +4,7 @@
  # - Salário Bruto até 1500 (inclusive) - desconto de 5%
  # - Salário Bruto até 2500 (inclusive) - desconto de 10%
  # - Salário Bruto acima de 2500 - desconto de 20%
-def salario():
+def strutura_decisao_12():
     valor_hora = float(input('Qual o valor da sua hora de trabalho? (R$) '))
     horas = float(input('Quantas horas você trabalhou no mês? '))
     bruto = valor_hora * horas
@@ -31,4 +31,4 @@ Salário líquido:                   R$ {:.2f}
                bruto*ir, inss*100, inss*bruto,
                fgts*100, fgts*bruto, total_descontos,
                liquido))
-salario()
+strutura_decisao_12()
