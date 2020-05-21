@@ -1,5 +1,5 @@
 # Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
-def sexo():
+def estrutura_decisao_03():
     n = str(input('Digite M para masculino e F para feminino: ')).upper().strip()
     if n == 'F':
         print('F - Feminino')
@@ -7,4 +7,4 @@ def sexo():
         print('M - Masculino')
     else:
         print('Sexo Inválido')
-sexo()
+estrutura_decisao_03()
