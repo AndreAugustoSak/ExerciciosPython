@@ -3,7 +3,7 @@
  # Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
  # Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
  # Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário.
-def bhaskara():
+def strutura_decisao_16():
     a = float(input('Qual o valor de A? '))
     if a == 0:
         print('Não é uma equação de segundo grau.')
@@ -22,4 +22,4 @@ def bhaskara():
         raiz2 = (-b - (delta**(1/2)))/(2*a)
         print('A raiz x1 da equação é {:.3f}.'.format(raiz1))
         print('A raiz x2 da equação é {:.3f}.'.format(raiz2))
-bhaskara()
+strutura_decisao_16()
