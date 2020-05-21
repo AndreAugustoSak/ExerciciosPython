@@ -7,7 +7,7 @@
  # - Entre 4.0 e zero        E
 # O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
-def resultado():
+def strutura_decisao_14():
     n1 = float(input('Digite a primeira nota: '))
     n2 = float(input('Digite a segunta nota: '))
     m = (n1 + n2) / 2
@@ -30,4 +30,4 @@ Nota dois: {}
 Média: {}
 Conceito: {}
 Situação: {}'''. format(n1, n2, m, conceito, situacao))
-resultado()
+strutura_decisao_14()
