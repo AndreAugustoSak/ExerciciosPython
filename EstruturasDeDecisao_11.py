@@ -9,7 +9,7 @@
 ## o valor do aumento;
 ## o novo salário, após o aumento.
 
-def reajustes():
+def strutura_decisao_11():
     salario = float(input('Qual o salário do colaborador? (R$) '))
     if salario <= 280:
         percentual = 20
@@ -31,4 +31,4 @@ def reajustes():
 Percentual de aumento aplicado: {}%
 Valor do aumento: R$ {:.2f}
 Novo salário, após o aumento: R$ {:.2f}'''.format(salario, percentual, aumento, novo_salario))
-reajustes()
+strutura_decisao_11()
