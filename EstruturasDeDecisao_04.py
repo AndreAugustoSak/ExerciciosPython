@@ -1,5 +1,5 @@
 # Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
-def letra():
+def estrutura_decisao_04():
     n = str(input('Digite uma letra: ')).strip().upper()
     if n.isalpha():
         if n in 'AEIOU':
@@ -8,4 +8,4 @@ def letra():
             print('{} é uma consoante.'.format(n))
     else:
         print('{} não é uma letra.'.format(n))
-letra()
+estrutura_decisao_04()
