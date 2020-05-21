@@ -1,5 +1,5 @@
 # Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
-def saudacao ():
+def estrutura_decisao_10():
     periodo = str(input('''Em que turno você estuda?
     Digite:
     M - matutino
@@ -13,4 +13,4 @@ def saudacao ():
         print('Boa noite!')
     else:
         print('Valor inválido')
-saudacao()
+estrutura_decisao_10()
