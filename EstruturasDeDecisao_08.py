@@ -1,5 +1,5 @@
 # Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
-def preco ():
+def estrutura_decisao_08():
     import numpy as np
     n1 = float(input('Qual o preço do primeiro produto? R$ '))
     n2 = float(input('Qual o preço do segundo produto? R$ '))
@@ -18,4 +18,4 @@ def preco ():
         print('O segundo produto é o mais barato.')
     if n3 < n1 and n3 < n2:
         print('O terceiro protudo é o mais barato.')
-preco()
+estrutura_decisao_08()
