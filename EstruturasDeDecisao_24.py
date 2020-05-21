@@ -2,7 +2,7 @@
  # par ou ímpar;
  # positivo ou negativo;
  # inteiro ou decimal.
-def operacao():
+def estrutura_decisao_24():
     n1 = float(input('Digite um número: '))
     n2 = float(input('Digite outro número: '))
     oper = int(input('''Qual operação você deseja realizar?
@@ -33,4 +33,4 @@ Digite:
     else:
         tipo_3 = 'negativo'
     print('O resultado é {} e este número é {}, {} e {}.'.format(resultado, tipo_1, tipo_2, tipo_3))
-operacao()
+estrutura_decisao_24()
