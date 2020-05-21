@@ -5,7 +5,7 @@
  # "Devia para a vítima?"
  # "Já trabalhou com a vítima?"
 # O programa deve no final emitir uma classificação sobre a participação da pessoa no crime. Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino". Caso contrário, ele será classificado como "Inocente".
-def inquerito():
+def estrutura_decisao_25():
     print('Responda SIM ou NÃO para as perguntas a seguir: ')
     p1 = str(input('Você telefonou para a vítima? ')).strip().upper()
     p2 = str(input('Você esteve no local do crime? ')).strip().upper()
@@ -31,4 +31,4 @@ def inquerito():
         print('Você é suspeito(a)!')
     else:
         print('Você é inocente!')
-inquerito()
+estrutura_decisao_25()
