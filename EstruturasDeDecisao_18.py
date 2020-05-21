@@ -1,5 +1,5 @@
 # Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma é uma data válida.
-def valida_data():
+def strutura_decisao_18():
     import datetime
     data = str(input('Digite uma data no formato "dd/mm/aaaa": '))
     formato = '%d/%m/%Y'
@@ -8,4 +8,4 @@ def valida_data():
         print('{} é uma data válida.'.format(data))
     except ValueError:
         print('{} não é uma data válida.'.format(data))
-valida_data()
+strutura_decisao_18()
