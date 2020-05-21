@@ -1,5 +1,5 @@
 # Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
-def strutura_decisao_13():
+def estrutura_decisao_13():
     n = int(input('Digite o número correspondente ao dia da semana: '))
     if n == 1:
         print('1 - Domingo')
@@ -17,4 +17,4 @@ def strutura_decisao_13():
         print('7 - Sábado')
     else:
         print('Número inválido')
-strutura_decisao_13()
+estrutura_decisao_13()
